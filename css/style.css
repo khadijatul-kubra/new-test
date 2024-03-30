@@ -1,0 +1,239 @@
+/* defaulte css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.primary-title {
+    font-size: 36px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "squada one", sans-serif;
+}
+
+.sub-title {
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+/* top bar start */
+.top-bar {
+    background-color: rgb(71, 136, 71);
+}
+
+.top-bar p {
+    color: #fff;
+}
+
+.top-bar a {
+    color: rgb(105, 96, 96);
+    transition: 0.3s;
+}
+
+.top-bar a:hover {
+    color:
+        #fff;
+    font-weight: 600;
+}
+
+/* top bar end */
+
+
+/* navbar section start */
+
+.top-header ul li a {
+    color: gray;
+    transition: 0.3s ease-in-out;
+}
+
+.top-header ul li a:hover {
+    color: green;
+    font-weight: 600;
+}
+
+/* navbar section end */
+
+/* main navbar start */
+
+.main-nav ul li {
+    border-right: 1px solid;
+}
+
+.main-nav ul li:last-child {
+    border-right: none;
+}
+
+.dropdown {
+    position: unset !important;
+}
+
+.dropdown-menu .show {
+    display: flex;
+    justify-content: center;
+}
+
+/* main navbar end */
+
+/* banner section start */
+
+.banner {
+    background-image: url("../photos/Banner.jpeg");
+    background-position: center;
+    margin-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 90px;
+
+}
+
+/* banner section end */
+
+/* blogs section start */
+
+.card-img-overlay {
+    background-color: rgba(208, 199, 199, 0.5);
+    top: unset !important;
+}
+
+/* blogs section end */
+
+/* popular brands section start */
+
+.page-title h3 {
+    font-size: 20px;
+    font-family: "squada one", sans-serif;
+    color: gray;
+}
+
+.brand-images ul li img {
+    filter: grayscale(1) contrast(0.3s);
+
+}
+
+/* popular brands section end */
+
+/* products ssection start */
+
+.products .card-title {
+    font-family: "squada one", sans-serif;
+    font-size: 26px;
+    color: gray;
+}
+
+.products .card-text {
+    font-family: "squada one", sans-serif;
+    font-size: 16pxpx;
+    color: gray;
+}
+
+.products span {
+    font-size: 18px;
+    color: gray;
+}
+
+.products i {
+    font-size: 16px;
+    color: gray;
+}
+
+/* products ssection end */
+
+/* footter blog section start */
+.final-blog {
+    top: 0 !important;
+}
+
+/* footer blog section end */
+
+/* join the club section start */
+.join-club {
+    background-image: url(../photos/view.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.join-club h2 {
+    font-family: "lilit one , sans-serif";
+    color: #fff;
+    font-size: 36px;
+}
+.join-club .row{
+    padding: 0 200px;
+}
+
+/* join the club section end */
+
+/* footer section start */
+
+
+footer {
+    background-color: rgb(243, 234, 234);
+}
+
+footer h3 {
+    color: gray;
+    font-size: 20px;
+    font-family: "lilit one , sans-serif";
+}
+
+footer ul li a {
+    color: gray;
+}
+
+ .payment h4 {
+    color: gray;
+    font-family: "lilit one , sans-serif";
+    font-size: 26px;
+}
+.payment p {
+    color: gray;
+    font-family: "lilit one , sans-serif";
+    font-size: 16px;
+}
+.copyright{
+    background-color: green;
+}
+.copyright ul li a{
+    color: #fff;
+}
+.copyright span{
+    color: rgb(251, 235,235);
+}
+
+/* footer section end */
+
+
+/* media query */
+
+@media only screen and (max-width: 1024px) {
+    .join-club .row{
+padding: 0 50px !important;
+   }
+  }
+@media only screen and (max-width: 992px) {
+    .main-nav-dropdown .show{
+display: block !important;
+
+   }
+  }
+
+/* media query end */
+
+
+
+
+
+
+
